@@ -1,0 +1,19 @@
+
+git config --global user.name ”Ivan Ivanov”
+git config --global user.email ivan.ivanov@gmail.com
+
+echo "# Lab8" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/KateDashkevich/Lab8.git
+git push -u origin main
+
+$ git branch testing
+$ git branch othertest
+checkout testing
+
+echo "Put any content here" >> Newfile.txt
+
+C:\PISM
